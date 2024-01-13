@@ -1,28 +1,33 @@
-"use client";
+'use client';
+import { MailIcon, HomeIcon, PhoneCall } from "lucide-react";
+import Form from "../../components/Form";
+import Socials from "../../components/Socials";
 import React, { useEffect } from "react";
-import { Button } from "./ui/button";
 import Image from "next/image";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 
-const heroContent = {
+
+const contactContent = {
   text: {
-    subheading: "Welcome to CoverEffect",
-    heading: "Protecting What Matters To You Most: Your Trusted Insurance Partner",
-    description:
-      "We specialize in safeguarding your most valuable assets, offering tailored insurance solutions for your home, belongings, business, and vehicles. we prioritize your peace of mind. Our experienced team is dedicated to providing personalized service, guiding you through the insurance process with expertise and care. Trust us to be your insurance partner, ensuring that you and your assets are well-protected.",
+        description1:"Reach out to our dedicated team at Cover Effect. We're here to understand your unique needs and craft a personalized insurance plan that fits you perfectly.",
+        description2: "Your peace of mind is just a conversation away. Whether you're safeguarding your home, business, or vehicle, our dedicated team at CoverEffect is here to tailor a solution that suits your unique needs.",
   },
   images: {
-    img1: "/images/hero-img-5.jpg",
-    img2: "/images/hero-img-2.jpg",
-    img3: "/images/hero-img-3.jpg",
-    img4: "/images/hero-img-4.jpg",
-    img5: "/images/hero-img-1.jpg",
+    img1: "/images/contact-2.jpg",
+    img2: "/images/contact-3.jpg",
+    img3: "/images/solution-img-6.jpg",
+    img4: "/images/contact-6.jpg",
+    img5: "/images/contact-4.jpg",
   },
 };
 
-const Hero = () => {
+
+
+const Contact =() => {
+
   useEffect(() => {
     AOS.init({
       duration: 700,
@@ -32,31 +37,24 @@ const Hero = () => {
   });
 
   return (
-    <section className="pt-28 pb-20">
-      <div className="container px-4 mx-auto">
-        <div className="lg:flex justify-between items-center">
+   <section>
+    <div className="container px-4 mx-auto pb-20">
+        <div className="lg:flex justify-between ">
           <div className="lg:w-5/12 mb-10 lg:mb-0">
-            {heroContent.text.subheading && (
-              <span
-                className="inline-block py-0.5 pl-3 text-heading font-semibold relative mb-7 before:content-[''] before:absolute before:w-2/3 before:bg-primary before:left-0 before:top-0 before:bottom-0 before:z-[-1]"
-                data-aos="fade-up">
-                {heroContent.text.subheading}
-              </span>
-            )}
-            {heroContent.text.heading && (
-              <h1
-                className="text-4xl lg:text-5xl font-bold text-heading mb-7"
+            {contactContent.text.description2 && (
+              <p
+                className="leading-relaxed text-gray-500 mb-0"
                 data-aos="fade-up"
-                data-aos-delay="100">
-                {heroContent.text.heading}
-              </h1>
+                data-aos-delay="200">
+                {contactContent.text.description2}
+              </p>
             )}
-            {heroContent.text.description && (
+            {contactContent.text.description1 && (
               <p
                 className="leading-relaxed text-gray-500 mb-10"
                 data-aos="fade-up"
                 data-aos-delay="200">
-                {heroContent.text.description}
+                {contactContent.text.description1}
               </p>
             )}
 
@@ -64,18 +62,20 @@ const Hero = () => {
               className="flex space-x-3"
               data-aos="fade-up"
               data-aos-delay="300">
-              <Button className='bg-primary  hover:bg-[#442359] flex gap-x-1 items-center max-w-[166px]' >
-                Get Started
-                
-              </Button>
+              {/*socials*/}
+              <Socials  
+                containerStyles='flex gap-x-6 mx-auto lg:mx-0' 
+                iconsStyles='text-foreground text-[22px] hover:text-primary transition-all'
+              />
+
             </div>
           </div>
           <div className="lg:w-6/12 space-y-2">
             <div className="flex space-x-2 items-stretch">
               <div className="w-8/12">
-                {heroContent.images.img1 && (
+                {contactContent.images.img1 && (
                   <Image
-                    src={heroContent.images.img1}
+                    src={contactContent.images.img1}
                     width={397}
                     height={406}
                     alt="Raeltec.com"
@@ -87,10 +87,10 @@ const Hero = () => {
               </div>
               <div className="w-4/12 self-end space-y-2 ">
                 <div className="grid grid-cols-2 gap-2">
-                  {heroContent.images.img2 && (
+                  {contactContent.images.img2 && (
                     <div>
                       <Image
-                        src={heroContent.images.img2}
+                        src={contactContent.images.img2}
                         width={437}
                         height={437}
                         alt="Raeltec.com"
@@ -106,10 +106,10 @@ const Hero = () => {
                     data-aos="fade-in"
                     data-aos-delay="400"></div>
                 </div>
-                {heroContent.images.img3 && (
+                {contactContent.images.img3 && (
                   <div>
                     <Image
-                      src={heroContent.images.img3}
+                      src={contactContent.images.img3}
                       width={374}
                       height={392}
                       alt="Raeltec.com"
@@ -129,10 +129,10 @@ const Hero = () => {
                     className="bg-primary rounded-2xl rounded-bl-[200px]"
                     data-aos="fade-ip"
                     data-aos-delay="500"></div>
-                  {heroContent.images.img4 && (
+                  {contactContent.images.img4 && (
                     <div>
                       <Image
-                        src={heroContent.images.img4}
+                        src={contactContent.images.img4}
                         width={394}
                         height={394}
                         alt="Raeltec.com"
@@ -146,9 +146,9 @@ const Hero = () => {
               </div>
 
               <div className="w-5/12">
-                {heroContent.images.img5 && (
+                {contactContent.images.img5 && (
                   <Image
-                    src={heroContent.images.img5}
+                    src={contactContent.images.img5}
                     width={446}
                     height={495}
                     alt="Raeltec.com"
@@ -161,9 +161,32 @@ const Hero = () => {
             </div>
           </div>
         </div>
+    </div>
+    {/* info text & form*/}
+    <div className='grid lg:grid-cols-2 mb-24 lg:mb-32 mx-auto '>
+         {/*info text*/}
+        <div className="flex flex-col gap-y-4 lg:gap-y-14 mb-12 lg:mb-24 gap-x-8
+            text-base lg:text-lg">
+           {/*mail*/}
+            <div className="flex items-center gap-x-8">
+              <MailIcon size={18} className="text-primary " />
+              <Link href="/">info@covereffect.com</Link>
+            </div>
+            {/*Address*/}
+            <div className="flex items-center gap-x-8">
+              <HomeIcon size={18} className="text-primary " />
+              <Link href="https://maps.app.goo.gl/Y1nGK9VkfHECEBL97">Shop No.21, Woodlands Mall, Lusaka, Zambia.</Link>
+            </div>
+            {/*Phone*/}
+            <div className="flex items-center gap-x-8">
+              <PhoneCall size={18} className="text-primary " />
+              <div>+260979376721, +260977561754</div>          
+          </div>
+       </div>
+       
+        <Form />
       </div>
-    </section>
+  </section>
   );
 };
-
-export default Hero;
+export default Contact;

@@ -1,0 +1,20 @@
+{
+  "title": "Personal Liability Insurance ",
+  "excerpt": "Provides protection against owed compensation and liability",
+  "image": "/images/services-8.jpg",
+  "category": "General Insurance",
+  "body": {
+    "raw": "\n## What Personal Liability Cover Offers you ##\n\n-    -Protects an individual from liability for accidental death, injury, illness, or damage to property\n-    -Cover should you become legally liable to pay compensation to a third party.\n-    -Cover is also extended to you as a tenant of a third party’s property. This will include accidental damage to the buildings or other items associated with the property such as electricity, sewerage and telephone connections\n-    -You have the option between a month-to-month liability insurance policy and an annual policy\n\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var i in e)o(t,i,{get:e[i],enumerable:!0})},l=(t,e,i,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!m.call(t,a)&&a!==i&&o(t,a,{get:()=>e[a],enumerable:!(r=u(e,a))||r.enumerable});return t};var x=(t,e,i)=>(i=t!=null?h(y(t)):{},l(e||!t||!t.__esModule?o(i,\"default\",{value:t,enumerable:!0}):i,t)),f=t=>l(o({},\"__esModule\",{value:!0}),t);var c=g((P,s)=>{s.exports=_jsx_runtime});var w={};b(w,{default:()=>_,frontmatter:()=>j});var n=x(c()),j={title:\"Personal Liability Insurance \",excerpt:\"Provides protection against owed compensation and liability\",category:\"General Insurance\",type:\"Service\",image:\"/images/services-8.jpg\"};function d(t){let e=Object.assign({h2:\"h2\",ul:\"ul\",li:\"li\"},t.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"What Personal Liability Cover Offers you\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"-Protects an individual from liability for accidental death, injury, illness, or damage to property\"}),`\n`,(0,n.jsx)(e.li,{children:\"-Cover should you become legally liable to pay compensation to a third party.\"}),`\n`,(0,n.jsx)(e.li,{children:\"-Cover is also extended to you as a tenant of a third party\\u2019s property. This will include accidental damage to the buildings or other items associated with the property such as electricity, sewerage and telephone connections\"}),`\n`,(0,n.jsx)(e.li,{children:\"-You have the option between a month-to-month liability insurance policy and an annual policy\"}),`\n`]})]})}function v(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,Object.assign({},t,{children:(0,n.jsx)(d,t)})):d(t)}var _=v;return f(w);})();\n;return Component;"
+  },
+  "_id": "services/Personal-Liability-Insurance.mdx",
+  "_raw": {
+    "sourceFilePath": "services/Personal-Liability-Insurance.mdx",
+    "sourceFileName": "Personal-Liability-Insurance.mdx",
+    "sourceFileDir": "services",
+    "contentType": "mdx",
+    "flattenedPath": "services/Personal-Liability-Insurance"
+  },
+  "type": "Service",
+  "url": "/services/Personal-Liability-Insurance"
+}

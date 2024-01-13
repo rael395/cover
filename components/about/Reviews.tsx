@@ -48,9 +48,9 @@
  ];
 
  const swiperSettings = {
-  slidesPerView: 2,
+  slidesPerView: 1,
   breakpoints: {
-    640: { slidesPerView: 2 },
+    640: { slidesPerView: 1 },
     1080: { slidesPerView: 2 },
   },
   spaceBetween: 30,
@@ -72,12 +72,12 @@ const Reviews = () => {
       {/*swiper*/}
       <Swiper 
       {...swiperSettings} 
-      className='h-[600px]'
+      className='h-[600px] sm:h-[800px]'
       >
         {reviewsData.map((person, index) => {
             return (
                 <SwiperSlide key={index} >
-                    <Card className='bg-primary/10 group overflow-hidden relative p-8 h-[600px]' >
+                    <Card className='bg-primary/10 group overflow-hidden relative p-8 h-[600px] sm:h-[800px]' >
                         <CardHeader className='p-0 mb-10' >
                             <div>
                                 {/*image*/}
@@ -97,7 +97,7 @@ const Reviews = () => {
                             </div>
                         </CardHeader>
                         <span className='text-[100px] leading-[0] relative text-primary block pt-6'>&ldquo;</span>
-                        <CardDescription className='text-lg text-muted-foreground italic' > {person.review} </CardDescription>
+                        <CardDescription className='text-lg text-muted-foreground italic sm:text-[22px]' > {person.review} </CardDescription>
                     </Card>
                 </SwiperSlide>
             );

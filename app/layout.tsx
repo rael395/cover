@@ -6,7 +6,7 @@ import Footer from "../components/ui/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "CoverEffect - Comprehensive Insurance",
+  title: "Home - CoverEffect Insurance",
   description: "Insurance Agent for Hollard ",
 };
 

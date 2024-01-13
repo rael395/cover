@@ -13,7 +13,7 @@ export default function Home() {
       <Services className={undefined}  />
       <Sponsor />
       <Solutions />
-      {/*<Companies />*/}
+      
     </>
   );
 }
