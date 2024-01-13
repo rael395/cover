@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+ 
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 224 71.4% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+    --primary: 262.1 83.3% 57.8%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 220 14.3% 95.9%;
+    --secondary-foreground: 220.9 39.3% 11%;
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 220.9 39.3% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262.1 83.3% 57.8%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71.4% 4.1%;
+    --foreground: 210 20% 98%;
+    --card: 224 71.4% 4.1%;
+    --card-foreground: 210 20% 98%;
+    --popover: 224 71.4% 4.1%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 263.4 70% 50.4%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 215 27.9% 16.9%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 210 20% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 263.4 70% 50.4%;
+  }
+}
+
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+.pagination {
+  @apply mx-auto flex flex-wrap justify-between items-center space-x-0 md:space-x-2;
+}
+
+.pagination .disabled a {
+  @apply opacity-30 cursor-default bg-gray-300 text-gray-500 hover:shadow-none;
+}
+
+.pagination li a {
+  @apply rounded-full w-10 h-10 inline-flex items-center justify-center transition-all duration-300 ease-in-out
+  text-[11.5px] tracking-[2px] font-bold uppercase bg-primary py-4 px-5 text-white hover:bg-white hover:text-primary hover:shadow-2xl;
+}
+
+.pagination li.active a {
+  @apply bg-white shadow-2xl text-primary;
+}
+
+.pagination li:first-child {
+  @apply !mr-2 md:!mr-5;
+}
+
+.pagination li.last-child {
+  @apply !mr-2 md:!mr-5;
+}
+
+.pagination li:first-child a,
+.pagination li:last-child a {
+  @apply w-auto px-3 md:px-5 rounded-none;
+}
+.prose h1, h2, h3, h4 {
+  @apply !font-medium text-slate-900;
+}
+.embla__container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 80%; /* Each slide covers 80% of the viewport */
+}
+.embla__slide:nth-child(1) {
+  flex: 0 0 30%; /* Slide covers 30% of the viewport */
+  min-width: 0;
+}
+.embla__slide:nth-child(2) {
+  flex: 0 0 60%; /* Slide covers 60% of the viewport */
+  min-width: 0;
+}
+/* swiper bullets styles */
+.swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+.swiper-pagination-bullet {
+  @apply bg-primary;
+}
