@@ -15,7 +15,7 @@ const page = () => {
     <>
         <Hero className="pt-5 pb-24" title={undefined} subTitle={undefined}/>
         <Stories />
-        <Whyus  />
+        <Whyus className={undefined}  />
         <Companies />
         <Team className="py-10 lg:py-32"/>
     </>
