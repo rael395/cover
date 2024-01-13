@@ -29,7 +29,7 @@ const icons = [
   },
 ];
 
-const Socials =({containerStyles, iconsStyles}) => {
+const Socials =({containerStyles, iconsStyles}: {containerStyles: any, iconStyles: any}) => {
   return <div className={`${containerStyles}`} >
     {icons.map((icon, index) => {
       return (
