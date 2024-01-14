@@ -39,7 +39,7 @@ const solutionContent = {
     img1: "/images/hero-pix-23.jpg",
     img2: "/images/solution-img-3.jpg",
     img3: "/images/hero-pix-96.jpg",
-    img4: "/images/solution-img-7.jpg",
+    img4: "/images/pix-35.jpg",
     img5: "/images/solution-img-5.jpg",
     img6: "/images/solution-img-1.jpg",
     
