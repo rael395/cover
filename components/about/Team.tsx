@@ -154,7 +154,7 @@ const Team = ({className }: {className: any}) => {
                               src={person.image}
                               width={300}
                               height={300}
-                              className='object-cover object-center w-full !max-h-[600px] !max-w-full 
+                              className='object-cover object-center w-full !max-h-[500px] !max-w-full 
                               duration-300 transition-all ease-in-out group-hover:scale-[1.05]'
                               alt='Image'
                               />  
