@@ -72,12 +72,12 @@ const Reviews = () => {
       {/*swiper*/}
       <Swiper 
       {...swiperSettings} 
-      className='h-[600px] '
+      className='h-[800px] '
       >
         {reviewsData.map((person, index) => {
             return (
                 <SwiperSlide key={index} >
-                    <Card className='bg-primary/10 group overflow-hidden relative p-8 h-[600px]' >
+                    <Card className='bg-primary/10 group overflow-hidden relative p-8 h-[800px]' >
                         <CardHeader className='p-0 mb-10' >
                             <div>
                                 {/*image*/}
