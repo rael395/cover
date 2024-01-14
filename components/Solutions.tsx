@@ -36,7 +36,7 @@ const solutionContent = {
     ],
   },
   images: {
-    img1: "/images/hero-pix-84.jpg",
+    img1: "/images/hero-pix-23.jpg",
     img2: "/images/solution-img-3.jpg",
     img3: "/images/hero-pix-96.jpg",
     img4: "/images/solution-img-7.jpg",
