@@ -2,7 +2,7 @@
 import Hero from '@/components/about/Hero'
 import Team from '@/components/about/Team'
 import Whyus from '@/components/about/Whyus'
-import Stories from '@/components/about/Reviews'
+import Reviews from '@/components/about/Reviews'
 import Companies from '@/components/about/Companies'
 import React from 'react'
 
@@ -14,7 +14,7 @@ const page = () => {
   return (
     <>
         <Hero className="pt-5 pb-24" title={undefined} subTitle={undefined}/>
-        <Stories />
+        <Reviews />
         <Whyus className={undefined}  />
         <Companies />
         <Team className="py-10 lg:py-32"/>
