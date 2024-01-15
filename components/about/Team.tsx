@@ -51,7 +51,7 @@ const teamContent ={
         {
             image: "/images/team-2-min.jpg",
             name: "Israel Muyoba",
-            role: "Head of IT",
+            role: "IT Consultant",
             linkedin: "https://linkedin.com",
             facebook: "https://facebook.com",
         },
