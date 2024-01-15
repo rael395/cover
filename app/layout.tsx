@@ -13,8 +13,7 @@ export const metadata = {
 export default function RootLayout({children }: {children: any}) {
   return (
     <html lang="en">
-      <body className={`${inter.className} text-body leading-relaxed`}>
-        <script defer src="https://openai-widget.web.app/ChatComponent.bundle.js"></script>
+      <script defer src="https://openai-widget.web.app/ChatComponent.bundle.js"></script>
           <script>
             document.addEventListener('DOMContentLoaded', function() {
               // Check if the chat container exists
@@ -33,7 +32,8 @@ export default function RootLayout({children }: {children: any}) {
               }
             });
           </script>
-            
+      <body className={`${inter.className} text-body leading-relaxed`}>
+             
         <Navigation />
         {children}
         <Footer />
