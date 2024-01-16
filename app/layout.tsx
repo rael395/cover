@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Head from 'next/head';
 import Navigation from "../components/ui/Navigation";
 import Footer from "../components/ui/Footer";
 
