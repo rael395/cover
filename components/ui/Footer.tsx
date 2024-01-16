@@ -73,7 +73,7 @@ const footerContent = {
       "Please feel free to reach out to us with any inquiries, questions, or assistance you may need.",
 
     address: {
-      street: "Shop No. 21 Woodlands Mall, Lusaka, Zambia.",
+      street: "Shop No. 23 Woodlands Mall, Lusaka, Zambia.",
       phone: "+260979376721, +260977561754 ",
       email: "info@covereffect.com",
     },
