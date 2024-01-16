@@ -15,11 +15,11 @@ const Chatbot = () => {
               }
               // Initialize the Chat component
               if (window.ChatComponent) {
-                ChatComponent.init('AqQlRmj27cFjCLP3MG2W','#chat-container');
+                ChatComponent.init('AqQlRmj27cFjCLP3MG2W','#chat-container')
               } else {
                 console.error('ChatComponent is not available');
               }
-            });
+            })
           </script>
       );
 };
