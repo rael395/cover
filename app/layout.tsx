@@ -3,7 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Navigation from "../components/ui/Navigation";
 import Footer from "../components/ui/Footer";
-import Chatbot from "../components/ui/Chatbot";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +26,7 @@ export default function RootLayout({ children }: {children: any}) {
         <Navigation />
         {children}
         <Footer />
-        <Chatbot />
+        
       </body>
     </>
   );
