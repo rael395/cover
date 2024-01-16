@@ -4,6 +4,7 @@ import Stats from "../components/Stats";
 import Services from "../components/Services";
 import Solutions from "../components/Solutions";
 import Sponsor from "@/components/Sponsor";
+import Chatbot from "../components/ui/Chatbot";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Services className={undefined}  />
       <Sponsor />
       <Solutions />
+      <Chatbot />
  
     </>
   );
