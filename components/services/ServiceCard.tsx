@@ -22,7 +22,7 @@ const ServiceCard = ({service, index}:{service: any, index: number}) => {
        <Link
        href={service.url} className='relative block overflow-hidden group'
        >
-        <Image 
+        <img 
         src={service.image}
         alt={service.title}
         width={1064}

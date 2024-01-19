@@ -31,7 +31,7 @@ const Items = ({currentItems}: {currentItems: any}) => {
                      href={service.url}
                      className='overflow-hidden block relative'
                      >
-                    <Image 
+                    <img 
                     src={service.image}
                     alt="raelcodes"
                     width={1064}

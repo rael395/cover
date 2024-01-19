@@ -48,7 +48,7 @@ const ServiceContent: React.FC<{ service: any }> = ({ service }) => {
             </div>
 
             <div className='mb-16' >
-                <Image src={service.image} width={1065} height={644}  alt="image"
+                <img src={service.image} width={1065} height={644}  alt="image"
                 className='object-cover object-top'
                 />
             </div>
