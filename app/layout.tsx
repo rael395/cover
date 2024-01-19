@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Navigation from "../components/ui/Navigation";
@@ -15,16 +14,14 @@ export const metadata = {
 export default function RootLayout({ children }: {children: any}) {
   return (
     <>
-     
+     <html lang='eng' >
       <body className={`${inter.className} text-body leading-relaxed`}>
-
-        
-
         <Navigation />
         {children}
         <Footer />
-        
       </body>
+</html>
+      
     </>
   );
 }
