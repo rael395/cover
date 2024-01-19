@@ -1,7 +1,9 @@
+import Head from 'next/head';
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Navigation from "../components/ui/Navigation";
 import Footer from "../components/ui/Footer";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,11 +12,10 @@ export const metadata = {
   description: "Insurance Agent for Hollard ",
 };
 
-export default function RootLayout({children }: {children: any}) {
+export default function RootLayout({ children }: {children: any}) {
   return (
-    <html lang="en">
-      
-            
+    <>
+     
       <body className={`${inter.className} text-body leading-relaxed`}>
 
         
@@ -22,7 +23,8 @@ export default function RootLayout({children }: {children: any}) {
         <Navigation />
         {children}
         <Footer />
+        
       </body>
-    </html>
+    </>
   );
 }

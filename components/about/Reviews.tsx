@@ -16,7 +16,7 @@
  const reviewsData = [
     {
       avatar: "/images/person-5-min.jpg",
-      name: "Martha Syamutondo",
+      name: "Martha",
       job: "CEO and Founder",
       review: "As the CEO of CoverEffect, I am proud to lead a team that is not only proficient in insurance but passionate about the well-being of our clients. Together, we envision a future where insurance transcends its traditional role, becoming a source of empowerment, resilience, and enduring peace. Join us on this journey, where CoverEffect is not just an insurance agency—it is a promise, a shield, and a partner in your journey towards a secure and flourishing future."
     },
@@ -33,8 +33,8 @@
         review: "We are inspired by the resilience of our clients, and we see insurance as a catalyst for resilience. Our comprehensive offerings, whether in house, commercial, or car insurance, are crafted with precision to meet the dynamic needs of those we serve. We understand that each policy represents not just assets but the life's work and passions of our clients."
       },
       {
-        avatar: "/images/team-5-min.jpg",
-        name: "Bertha",
+        avatar: "/images/team-10.jpg",
+        name: "David",
         job: "Sales Agent",
         review: "In every policy, we embed the values of integrity, empathy, and reliability. It is our firm belief that insurance should not be a transaction but a transformative partnership. We strive to be the ally our clients deserve, offering not just protection but a beacon of stability in an ever-changing world."
       },
@@ -72,12 +72,12 @@ const Reviews = () => {
       {/*swiper*/}
       <Swiper 
       {...swiperSettings} 
-      className='h-[600px] sm:h-[800px]'
+      className='h-[800px] '
       >
         {reviewsData.map((person, index) => {
             return (
                 <SwiperSlide key={index} >
-                    <Card className='bg-primary/10 group overflow-hidden relative p-8 h-[600px] sm:h-[800px]' >
+                    <Card className='bg-primary/10 group overflow-hidden relative p-8 h-[800px]' >
                         <CardHeader className='p-0 mb-10' >
                             <div>
                                 {/*image*/}

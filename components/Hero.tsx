@@ -14,7 +14,7 @@ const heroContent = {
       "We specialize in safeguarding your most valuable assets, offering tailored insurance solutions for your home, belongings, business, and vehicles. we prioritize your peace of mind. Our experienced team is dedicated to providing personalized service, guiding you through the insurance process with expertise and care. Trust us to be your insurance partner, ensuring that you and your assets are well-protected.",
   },
   images: {
-    img1: "/images/hero-img-5.jpg",
+    img1: "/images/pix-38.jpg",
     img2: "/images/hero-img-2.jpg",
     img3: "/images/hero-img-3.jpg",
     img4: "/images/hero-img-4.jpg",

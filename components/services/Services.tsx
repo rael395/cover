@@ -45,6 +45,9 @@ const Items = ({currentItems}: {currentItems: any}) => {
                         <h3 className='mb-4'>
                             <Link href={service.url} className='text-2xl leading-none' > {service.title} </Link>
                         </h3>
+                        <p className='mb-4'>
+                            <Link href={service.url} className='text-gray-500 leading-none' > {service.excerpt} </Link>
+                        </p>
                     </div>
                 </motion.div>
             );

@@ -18,8 +18,8 @@ const contactContent = {
   images: {
     img1: "/images/contact-2.jpg",
     img2: "/images/contact-3.jpg",
-    img3: "/images/solution-img-6.jpg",
-    img4: "/images/contact-6.jpg",
+    img3: "/images/contact-pix-2.jpg",
+    img4: "/images/team-7-min.jpg",
     img5: "/images/contact-4.jpg",
   },
 };

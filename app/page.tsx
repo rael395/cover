@@ -5,6 +5,8 @@ import Services from "../components/Services";
 import Solutions from "../components/Solutions";
 import Sponsor from "@/components/Sponsor";
 
+
+
 export default function Home() {
   return (
     <>
@@ -13,7 +15,8 @@ export default function Home() {
       <Services className={undefined}  />
       <Sponsor />
       <Solutions />
-      
+
+ 
     </>
   );
 }

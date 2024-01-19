@@ -21,37 +21,37 @@ const teamContent ={
             facebook: "https://facebook.com",
         },
         {
-            image: "/images/team-2-min.jpg",
-            name: "Israel Muyoba",
-            role: "Head of IT",
+            image: "/images/team-10.jpg",
+            name: "David Syamutondo",
+            role: "Finance Manager and Chief of Operations",
             linkedin: "https://linkedin.com",
             facebook: "https://facebook.com",
         },
         {
             image: "/images/team-7-min.jpg",
-            name: "Stella",
+            name: "Estelle Chimoba",
             role: "Sales Agent",
             linkedin: "https://linkedin.com",
             facebook: "https://facebook.com",
         },
         {
             image: "/images/contact-3.jpg",
-            name: "Mutinta",
-            role: "Sales Agent",
-            linkedin: "https://linkedin.com",
-            facebook: "https://facebook.com",
-        },
-        {
-            image: "/images/team-8-min.jpg",
-            name: "Bertha",
+            name: "Mutinta Muyiya",
             role: "Sales Agent",
             linkedin: "https://linkedin.com",
             facebook: "https://facebook.com",
         },
         {
             image: "/images/team-6-min.jpg",
-            name: "Lizzy",
+            name: "Elizabeth Banda",
             role: "Sales Agent",
+            linkedin: "https://linkedin.com",
+            facebook: "https://facebook.com",
+        },
+        {
+            image: "/images/team-2-min.jpg",
+            name: "Israel Muyoba",
+            role: "IT Consultant",
             linkedin: "https://linkedin.com",
             facebook: "https://facebook.com",
         },
@@ -154,7 +154,7 @@ const Team = ({className }: {className: any}) => {
                               src={person.image}
                               width={300}
                               height={300}
-                              className='object-cover object-center w-full !max-h-full !max-w-full 
+                              className='object-cover object-center w-full !max-h-[490px] !max-w-full 
                               duration-300 transition-all ease-in-out group-hover:scale-[1.05]'
                               alt='Image'
                               />  
