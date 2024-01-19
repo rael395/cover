@@ -14,7 +14,7 @@ function page() {
     return (
         <>
         <Hero className="pt-28 pb-24 " title="Let's Tailor Your Insurance Solution Together!" subTitle="Contact us" />
-        <Contact className="pt-0 pb-32"  />
+        <Contact />
         
         
         </>

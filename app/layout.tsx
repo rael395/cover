@@ -13,7 +13,12 @@ export const metadata = {
 export default function RootLayout({children }: {children: any}) {
   return (
     <html lang="en">
+      
+            
       <body className={`${inter.className} text-body leading-relaxed`}>
+
+        
+
         <Navigation />
         {children}
         <Footer />
