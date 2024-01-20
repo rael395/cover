@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const { withContentlayer } = require('next-contentlayer');
-const nextConfig = {}
+const nextConfig = {
+    images: {
+        unoptimized: false,
+      },
+}
 
 module.exports = withContentlayer(nextConfig);
