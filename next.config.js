@@ -4,6 +4,9 @@ const nextConfig = {
     images: {
         unoptimized: false,
       },
+      experimental: {
+        appDir: true,
+        },
 }
 
 module.exports = withContentlayer(nextConfig);
