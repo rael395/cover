@@ -5,5 +5,5 @@
 [functions]
   environment = { __NEXT_PRIVATE_PREBUNDLED_REACT = "next" }
 
-[build.environment]
+[postprocessing]
   __NEXT_PRIVATE_PREBUNDLED_REACT = "next"
