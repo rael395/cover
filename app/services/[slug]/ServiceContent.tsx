@@ -1,4 +1,5 @@
 'use client';
+import { CldImage } from 'next-cloudinary';
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -48,7 +49,7 @@ const ServiceContent: React.FC<{ service: any }> = ({ service }) => {
             </div>
 
             <div className='mb-16' >
-                <Image src={service.image} width={1065} height={644}  alt="image"
+                <CldImage src={service.image} width={1065} height={644}  alt="image"
                 className='object-cover object-top'
                 />
             </div>

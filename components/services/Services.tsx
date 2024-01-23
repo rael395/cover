@@ -1,4 +1,5 @@
 'use client';
+import { CldImage } from 'next-cloudinary';
 import React, {useState, useEffect, useRef} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -31,7 +32,7 @@ const Items = ({currentItems}: {currentItems: any}) => {
                      href={service.url}
                      className='overflow-hidden block relative'
                      >
-                    <Image 
+                    <CldImage 
                     src={service.image}
                     alt="raelcodes"
                     width={1064}
