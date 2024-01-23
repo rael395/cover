@@ -1,9 +1,2 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-  [build]
-  environment = { __NEXT_PRIVATE_PREBUNDLED_REACT = "next" }
-[functions]
-  environment = { __NEXT_PRIVATE_PREBUNDLED_REACT = "next" }
-
-[postprocessing]
-  __NEXT_PRIVATE_PREBUNDLED_REACT = "next"
