@@ -1,5 +1,5 @@
 'use client';
-import { CldImage } from 'next-cloudinary';
+
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -23,7 +23,7 @@ const ServiceCard = ({service, index}:{service: any, index: number}) => {
        <Link
        href={service.url} className='relative block overflow-hidden group'
        >
-        <CldImage 
+        <Image 
         src={service.image}
         alt={service.title}
         width={1064}

@@ -35,7 +35,7 @@
       {
         avatar: "/images/team-10.jpg",
         name: "David",
-        job: "Sales Agent",
+        job: "Finance Manager and Cheif of Operations",
         review: "In every policy, we embed the values of integrity, empathy, and reliability. It is our firm belief that insurance should not be a transaction but a transformative partnership. We strive to be the ally our clients deserve, offering not just protection but a beacon of stability in an ever-changing world."
       },
       {
@@ -72,7 +72,7 @@ const Reviews = () => {
       {/*swiper*/}
       <Swiper 
       {...swiperSettings} 
-      className='h-[800px] '
+      className='h-[750px] sm:h-[850px] md:h-[600px] lg:h-[800px]'
       >
         {reviewsData.map((person, index) => {
             return (
@@ -97,7 +97,7 @@ const Reviews = () => {
                             </div>
                         </CardHeader>
                         <span className='text-[100px] leading-[0] relative text-primary block pt-6'>&ldquo;</span>
-                        <CardDescription className='text-lg text-muted-foreground italic sm:text-[22px]' > {person.review} </CardDescription>
+                        <CardDescription  className='text-base sm:text-lg lg:text-xl text-muted-foreground italic sm:text-[22px]' > {person.review} </CardDescription>
                     </Card>
                 </SwiperSlide>
             );

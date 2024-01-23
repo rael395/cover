@@ -80,7 +80,7 @@ const footerContent = {
   },
   copyright: {
     labelOne: "Copyright ",
-    labelTwo: "Designed and Developed by Raeltec, a subsidiary of Agway Investments Limited. All rights reserved.",
+    labelTwo: "Designed and Developed by Agway Investments Limited. All rights reserved.",
   },
 };
 

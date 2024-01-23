@@ -1,22 +1,21 @@
 'use client';
-import { CldImage } from 'next-cloudinary';
+import {v2 as cloudinary} from 'cloudinary';
 import React, {useState, useEffect, useRef} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { allServices } from 'contentlayer/generated';
 import ReactPaginate from 'react-paginate';
 import { motion } from 'framer-motion';
-import { StaticImport } from 'next/dist/shared/lib/get-img-props';
-import { UrlObject } from 'url';
 
 const Items = ({currentItems}: {currentItems: any}) => {
+
     return (
         <>
         {currentItems && currentItems.map((service: any, index: any ) => {
             index *= 0.05;
             return (
                 <motion.div className='relative overflow-hidden w-full lg:w-6/12 p-2 group'
-                initial={{opacity:0, y: 20 }}
+                initial={{opacity:0, y: 20 }} 
                 whileInView={{
                     opacity: 1,
                     y:0,
@@ -32,7 +31,7 @@ const Items = ({currentItems}: {currentItems: any}) => {
                      href={service.url}
                      className='overflow-hidden block relative'
                      >
-                    <CldImage 
+                    <Image 
                     src={service.image}
                     alt="raelcodes"
                     width={1064}
