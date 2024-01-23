@@ -22,14 +22,18 @@ const ServiceCard = ({service, index}:{service: any, index: number}) => {
        <Link
        href={service.url} className='relative block overflow-hidden group'
        >
-        <Image 
-        src={service.image}
-        alt={service.title}
-        width={1064}
-        height={644}
-        className='object-cover object-center h-[400px] !max-w-full
-       duration-300 transition-all ease-in-out group-hover:scale-[1.05]'
-        />
+                  <img 
+                    alt="Commercial Insurance" 
+                    loading="lazy" 
+                    width="1064" 
+                    height="644" 
+                    decoding="async" 
+                    data-nimg="1" 
+                    className="object-cover object-center h-[200px] duration-300 transition-all ease-in-o…" 
+                    style={{color: "transparent"}}
+                    srcSet="https://res.cloudinary.com/dhqo2zfe8/image/fetch/f_auto,q_auto/https://covereffectinsurance.netlify.app/_next/image%3Furl%3D%252Fimages%252Fcommercial.jpg%26w%3D3840%26q%3D75" 
+                    src="https://res.cloudinary.com/dhqo2zfe8/image/fetch/f_auto,q_auto/https://covereffectinsurance.netlify.app/_next/image%3Furl%3D%252Fimages%252Fcommercial.jpg%26w%3D3840%26q%3D75"
+                     />
         <div className='py-8 px-2' >
             <span className='block mb-1 text-gray-500' >{service.category}</span>
             <h3 className='mb-4' >
