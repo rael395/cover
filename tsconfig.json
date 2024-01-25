@@ -31,7 +31,6 @@
         "name": "next"
       }
     ],
-    
     "forceConsistentCasingInFileNames": true
   },
   "include": [

@@ -2,6 +2,7 @@
 const { withContentlayer } = require('next-contentlayer');
 const withImages = require('next-images');
 const nextConfig = {
+ 
   ...withImages({
     images: {
       

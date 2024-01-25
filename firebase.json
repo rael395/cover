@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "covereffectinsurance",
+    "ignore":[
+      "**/.*",
+      "firebase.json",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "nextjsServer"
+      }
+    ]
+  },
+  "functions": {
+    "source": ".",
+    "runtime": "nodejs20"
+    
+    
+  }
+}
