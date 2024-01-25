@@ -20,12 +20,25 @@ export default function RootLayout({ children }: {children: any}) {
     <>
      <html lang="eng">
      <Head>
-      <Script
+      <meta 
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+
+        
+      </Head>
+      
+        <body className={`${inter.className} text-body leading-relaxed`}>
+          <Navigation />
+          {children}
+          <Footer />
+
+          <Script
                 defer={true}
                 strategy="beforeInteractive"
                 src="https://openai-widget.web.app/ChatComponent.bundle.js"
               />
-      <Script strategy="afterInteractive">
+          <Script strategy="afterInteractive">
                 {` // Check if the chat container exists
                     var chatContainer = document.getElementById('chat-container');
                     // If the chat container doesn't exist, create it
@@ -40,17 +53,7 @@ export default function RootLayout({ children }: {children: any}) {
                     } else {
                       console.error('ChatComponent is not available');
                     }`}
-              </Script>
-
-        
-      </Head>
-      
-        <body className={`${inter.className} text-body leading-relaxed`}>
-          <Navigation />
-          {children}
-          <Footer />
-
-          
+            </Script>
             
         </body>
       </html>
