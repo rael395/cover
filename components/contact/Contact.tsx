@@ -163,7 +163,7 @@ const Contact =() => {
         </div>
     </div>
     {/* info text & form*/}
-    <div className='grid lg:grid-cols-2 mb-24 lg:mb-32 mx-auto '>
+    <div className='grid lg:grid-cols-2 mb-24 lg:mb-32 mx-auto px-4 '>
          {/*info text*/}
         <div className="flex flex-col gap-y-4 lg:gap-y-14 mb-12 lg:mb-24 gap-x-8
             text-base lg:text-lg">
