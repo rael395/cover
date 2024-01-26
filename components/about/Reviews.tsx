@@ -35,7 +35,7 @@
       {
         avatar: "/images/team-10.jpg",
         name: "David",
-        job: "Finance Manager and Cheif of Operations",
+        job: "Finance Manager and Chief of Operations",
         review: "In every policy, we embed the values of integrity, empathy, and reliability. It is our firm belief that insurance should not be a transaction but a transformative partnership. We strive to be the ally our clients deserve, offering not just protection but a beacon of stability in an ever-changing world."
       },
       {

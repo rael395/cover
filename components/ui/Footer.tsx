@@ -75,12 +75,12 @@ const footerContent = {
     address: {
       street: "Shop No. 23 Woodlands Mall, Lusaka, Zambia.",
       phone: "+260979376721, +260977561754 ",
-      email: "info@covereffect.com",
+      email: "customercare@covereffectinsurance.com",
     },
   },
   copyright: {
     labelOne: "Copyright ",
-    labelTwo: "Designed and Developed by Agway Investments Limited. All rights reserved.",
+    labelTwo: "Designed and Developed by Israel Muyoba. All rights reserved.",
   },
 };
 

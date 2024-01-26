@@ -170,7 +170,7 @@ const Contact =() => {
            {/*mail*/}
             <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary " />
-              <Link href="/">info@covereffect.com</Link>
+              <Link href="/">customercare@covereffectinsurance.com</Link>
             </div>
             {/*Address*/}
             <div className="flex items-center gap-x-8">
